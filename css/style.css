@@ -1,0 +1,43 @@
+body {background-color: #fcfbfa;}
+
+:root {
+    --fonte-um: 'Cutive', serif;
+}
+
+.mgn {
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.btn {
+    color:black;
+    border: 3px solid black;
+    padding: 0% 2%;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: .5s;
+    font-size: 2vmin;
+    font-family: var(--fonte-um);
+    justify-content: left;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #f4f5f4;
+    color: black;
+    font-weight: 600;
+}
+
+.ftn {
+    font-family: var(--fonte-um);
+    font-size: 2vmin;
+}
+
+.placar {
+    position: absolute;
+    margin: 40px;
+    padding: 0.5% 2%;
+    border: 2px solid #000000;
+    font-family: var(--fonte-um);
+    font-size: 2vmin;
+  }
